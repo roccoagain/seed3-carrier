@@ -589,7 +589,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at -3.429 0 0)
+			(at -3.429 0 90)
 			(layer "F.SilkS")
 			(uuid "d543db21-1c4f-4b66-99a0-f7d90369c768")
 			(effects
@@ -1164,7 +1164,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 1.905 90)
+			(at -3.556 0 270)
 			(layer "F.SilkS")
 			(uuid "7c7c6f28-8d31-4f51-9f85-0bfafa1c2627")
 			(effects
@@ -1322,7 +1322,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.85 90)
+			(at 0.762 1.905 90)
 			(layer "F.SilkS")
 			(uuid "2aa2493a-65e0-41ce-942b-24716047bcea")
 			(effects
@@ -4112,7 +4112,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 2 90)
+			(at -0.484 2 90)
 			(layer "F.SilkS")
 			(uuid "6d12f8e1-0099-4819-9d5e-e62ec9d0b4fe")
 			(effects
@@ -4765,7 +4765,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at -0.762 -2.032 270)
+			(at 0 -2.794 270)
 			(layer "F.SilkS")
 			(uuid "4fb0552f-c275-4c3f-a8db-559047f50d60")
 			(effects
@@ -4923,7 +4923,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.83 90)
+			(at 0.762 1.905 90)
 			(layer "F.SilkS")
 			(uuid "88a5508d-cba0-46e7-b606-0a2759844f63")
 			(effects
@@ -5239,7 +5239,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -3.81 0 90)
+			(at 0.127 2.032 90)
 			(layer "F.SilkS")
 			(uuid "15bb7d84-c5c5-4c6a-b626-8b9ca2e34d19")
 			(effects
@@ -10002,7 +10002,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 1.905 90)
+			(at -3.683 0 90)
 			(layer "F.SilkS")
 			(uuid "3091e399-e207-4c54-862b-5621225cd584")
 			(effects
@@ -11091,7 +11091,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at -1.016 2.032 90)
+			(at 0 2.794 90)
 			(layer "F.SilkS")
 			(uuid "6d470dc3-31e8-489f-88ca-9463fa2d4b8e")
 			(effects
@@ -11817,7 +11817,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 3.575 0 90)
+			(at -0.235 2.032 90)
 			(layer "F.SilkS")
 			(uuid "ebdda5eb-cbdd-488c-a450-15127f04a3de")
 			(effects
@@ -12457,6 +12457,7 @@
 		(property "Value" "TP_AMP_5V"
 			(at 0 2.05 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "94ef60a2-83d1-43ed-ae51-28297c58b025")
 			(effects
 				(font
@@ -12711,7 +12712,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 -2.3 90)
+			(at 0.235 2.612 90)
 			(layer "F.SilkS")
 			(uuid "8728f42a-001e-4b27-8d2c-7e2fc143fee8")
 			(effects
@@ -14750,6 +14751,150 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "c08fa432-0780-4cff-b3f1-147bc55262db")
+	)
+	(via
+		(at 140.97 92.71)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "0879a4e6-471c-48fe-8218-0f86bbc0d6df")
+	)
+	(via
+		(at 106.934 52.324)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "2e9b0155-72d9-48ab-a194-e83058829779")
+	)
+	(via
+		(at 93.472 77.47)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "346e0080-1b2e-4516-b35d-57329df617a7")
+	)
+	(via
+		(at 117.856 84.582)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "3910c51d-68fe-4ce6-86e4-8df09c95ea09")
+	)
+	(via
+		(at 80.518 98.806)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "7ce6eff6-dda4-437e-8458-ca34293b2ec6")
+	)
+	(via
+		(at 93.98 85.09)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "7d01e50b-a6a5-40cd-a217-6fa9d29dbae6")
+	)
+	(via
+		(at 119.888 75.438)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "87d8a76a-37d6-451e-abaa-5f43439c5513")
+	)
+	(via
+		(at 62.992 43.18)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "9672dba5-3475-4c4e-ad84-9c18b82cf9ab")
+	)
+	(via
+		(at 154.94 88.9)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "a291ded6-b505-4f77-bbb7-1cc24f60026f")
+	)
+	(via
+		(at 105.918 75.438)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "b59b83f9-50e8-487f-82f1-39e63fc17455")
+	)
+	(via
+		(at 141.478 58.674)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "bc14abf0-229f-4479-bee4-79e383e691a4")
+	)
+	(via
+		(at 159.766 58.674)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "bff4c6f0-da42-4d82-a585-bcd5ce75d4d3")
+	)
+	(via
+		(at 116.84 93.98)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "c815d0b1-86a9-4081-ba3d-3f19b9a6ec58")
+	)
+	(via
+		(at 138.43 99.568)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "ed252c74-169e-408d-ba9e-5fb485df656d")
+	)
+	(via
+		(at 112.014 95.758)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "f30905a6-acf8-47fc-9caa-da524d910794")
+	)
+	(via
+		(at 106.934 60.706)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "fe6890ff-8f08-4df4-a4fd-0c1393b7fb1e")
 	)
 	(segment
 		(start 81.534 94.996)
