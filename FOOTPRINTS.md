@@ -7,7 +7,7 @@ Footprints are assigned in `seed3-carrier.kicad_sch` from KiCad's installed stan
 | R1–R16 | 1206 (3.2 × 1.6 mm), enlarged HandSolder pads |
 | C1–C3, C5, C8–C11, C16, C17 | 1206 ceramic, enlarged HandSolder pads |
 | C12/C13, 4.7 µF | Murata GRM32ER71H475KA88L, 50 V X7R, 1210 with enlarged HandSolder pads |
-| RV1 | Bourns 3296W-1-105LF, 1 MΩ linear, through-hole multiturn input trimmer |
+| RV1 | Bourns PTV09A-4020F-B105, 1 MΩ linear, single-turn input-level control, 6 mm flatted shaft, 20 mm length |
 | C7, 47 µF | 1210 (3.2 × 2.5 mm) ceramic, enlarged HandSolder pads |
 | U1, TLV9062IDR | Standard SOIC-8, 3.9 × 4.9 mm body, 1.27 mm pitch |
 | U2, TPA6111A2DR | SOIC-8, 3.9 × 4.9 mm body, 1.27 mm pitch |
@@ -18,7 +18,7 @@ Footprints are assigned in `seed3-carrier.kicad_sch` from KiCad's installed stan
 | J1, J2 | Neutrik NRJ4HF, board-mounted right-angle 6.35 mm mono switched jacks |
 | J3, 5V_IN | Through-hole 1×2 header, 2.54 mm pitch |
 | J4, DISPLAY_UART | Through-hole 1×3 header, 2.54 mm pitch |
-| RV2, RV3 | Alps RK09K1130A8G, 10 kΩ linear (1B), vertical, 15 mm shaft; Alps RK09K single vertical footprint |
+| RV2, RV3 | Bourns PTV09A-4020F-B103, 10 kΩ linear; same body and shaft as RV1 |
 | TP2, TP4–TP8 | Exposed 2 mm diameter test pads |
 
 ## Part selection and assembly
@@ -34,7 +34,7 @@ Footprints are assigned in `seed3-carrier.kicad_sch` from KiCad's installed stan
 - [TI TLV9062 datasheet and D/SOIC package drawing](https://www.ti.com/lit/ds/symlink/tlv9062.pdf)
 - [Neutrik NRJ4HF](https://www.neutrik.com/en/product/nrj4hf)
 - [DigiKey NRJ4HF, part 6473-NRJ4HF-ND](https://www.digikey.com/en/products/detail/neutrik-americas-inc/NRJ4HF/29427414)
-- [Alps RK09K/RK09D series and RK09K1130A8G specifications](https://tech.alpsalpine.com/e/products/category/potentiometers/sub/02/series/rk09k/)
+- [Bourns PTV09 series dimensions and ordering information](https://www.bourns.com/docs/product-datasheets/ptv09.pdf)
 
 ## Headphone output
 
@@ -62,11 +62,11 @@ C6 is removed because C14 already blocks DC. The line output now depends on U2 a
 
 ## Input level adjustment
 
-RV1 is a Bourns 3296W-1-105LF 1 MΩ board trimmer between C3 and R1, referenced to VREF. Pin 3 is the incoming signal, pin 1 is VREF, and pin 2 is the wiper; clockwise rotation increases the level. R5 is increased to 10 MΩ to retain a DC reference if wiper contact is interrupted without significantly loading the trimmer. Nominal input resistance is about 0.91 MΩ at full level and approaches 1 MΩ as the trimmer is reduced. C4 is removed because its 100 pF capacitance would roll off guitar treble against the trimmer's source resistance; C1 remains at the jack for RF filtering.
+RV1 is a Bourns PTV09A-4020F-B105 1 MΩ front-panel rotary pot between C3 and R1, referenced to VREF. Pin 3 is the incoming signal, pin 1 is VREF, and pin 2 is the wiper; clockwise rotation increases the level. R5 is increased to 10 MΩ to retain a DC reference if wiper contact is interrupted without significantly loading the potentiometer. Nominal input resistance is about 0.91 MΩ at full level and approaches 1 MΩ as the potentiometer is reduced. C4 is removed because its 100 pF capacitance would roll off guitar treble against the potentiometer's source resistance; C1 remains at the jack for RF filtering.
 
-This is a manual input attenuator, not an automatic limiter. For a passive guitar, use full clockwise if the hardest playing stays below clipping. For an active guitar or pedals, turn down first and calibrate with the hottest intended signal. Target no more than approximately 3 V peak-to-peak at TP2 (AUDIO_IN), allowing margin below the Seed's documented 3.6 V peak-to-peak range. The maximum setting does not protect against an arbitrarily hot input. Firmware output volume cannot correct input clipping. RV1 should remain accessible for adjustment when changing sources; it is an internal setup trimmer, not a front-panel performance control.
+This is a manual input attenuator, not an automatic limiter. For a passive guitar, use full clockwise if the hardest playing stays below clipping. For an active guitar or pedals, turn down first and calibrate with the hottest intended signal. Target no more than approximately 3 V peak-to-peak at TP2 (AUDIO_IN), allowing margin below the Seed's documented 3.6 V peak-to-peak range. The maximum setting does not protect against an arbitrarily hot input. Firmware output volume cannot correct input clipping. RV1 should remain accessible for adjustment when changing sources; it is now a front-panel input-level control.
 
-[Bourns trimmer datasheet](https://www.bourns.com/docs/product-datasheets/3296.pdf) · [DigiKey RV1](https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-105LF/1088047) · [Seed input limits](https://daisy.nyc3.cdn.digitaloceanspaces.com/products/seed/Daisy_Seed_datasheet.pdf)
+[Bourns potentiometer datasheet](https://www.bourns.com/docs/product-datasheets/ptv09.pdf) · [DigiKey RV1](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4020F-B105/4699522) · [Seed input limits](https://daisy.nyc3.cdn.digitaloceanspaces.com/products/seed/Daisy_Seed_datasheet.pdf)
 
 ## Output charging and startup
 
@@ -82,4 +82,12 @@ This uses passive charging and the TPA6111A2's internal pop-reduction behavior; 
 
 ## Verification
 
-All 49 physical components have assigned footprints in the installed library, and all symbol pins have matching pads. Connectivity checks cover the new input trimmer and both output discharge/isolation networks; unrelated connections are preserved. Netlist checks cover both open and closed jack-switch states. KiCad schematic ERC reports 0 violations. The rendered schematic was inspected. PCB layout, enclosure fit, power-on transients, output DC, and audio performance under headphone load still require hardware validation.
+All 49 physical components have assigned footprints in the installed library, and all symbol pins have matching pads. Connectivity checks cover the new input potentiometer and both output discharge/isolation networks; unrelated connections are preserved. Netlist checks cover both open and closed jack-switch states. KiCad schematic ERC reports 0 violations. The rendered schematic was inspected. PCB layout, enclosure fit, power-on transients, output DC, and audio performance under headphone load still require hardware validation.
+
+## Matching front-panel controls
+
+RV1/RV2/RV3 use Bourns PTV09A-4020F parts with identical 6 mm flatted shafts, 20 mm shaft length, no detent, and 280-degree nominal travel. Use three matching knobs for 6 mm D shafts. RV1 remains 1 MΩ; RV2/RV3 remain 10 kΩ. Resistance and electrical connectivity are unchanged.
+
+All three use the installed `Potentiometer_Bourns_PTV09A-1_Single_Vertical` land pattern: the manufacturer specifies the same horizontal/rear-mount PCB pattern for the selected bushingless -4 variant. The -1 footprint model depicts a different bushing, so it is omitted from the three PCB instances; use the selected part drawing for enclosure clearance. The PCB controls are placed at 22.5 mm shaft-center spacing; this placement still requires enclosure review.
+
+[DigiKey RV1, 1 MΩ](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4020F-B105/4699522) · [DigiKey RV2/RV3, 10 kΩ](https://www.digikey.com/en/products/detail/bourns-inc/PTV09A-4020F-B103/3534181)

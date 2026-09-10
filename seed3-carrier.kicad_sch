@@ -5784,16 +5784,6 @@
 		)
 		(uuid "6cfa9ee8-5646-47f7-9b68-3f943c5710ae")
 	)
-	(label "GND"
-		(at 332.74 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f1f2536-f232-4912-946e-0471c0bc50fa")
-	)
 	(label "HP_R"
 		(at 397.51 76.2 0)
 		(effects
@@ -6253,7 +6243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6264,7 +6254,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/ptv09.pdf"
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6328,7 +6318,8 @@
 		(pin "1"
 			(uuid "f611b659-1990-47dd-92bc-2bbf8b6c3c4a")
 		)
-		(instances
+		(property "MPN" "PTV09A-4020F-B103" (at 127 92.71 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
 			(project "seed3-carrier"
 				(path "/94ecceca-f8ce-4e68-9c84-99ac5115dfb9"
 					(reference "RV2")
@@ -9618,7 +9609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 127 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9629,7 +9620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/ptv09.pdf"
 			(at 127 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9684,8 @@
 		(pin "1"
 			(uuid "413de05c-9b46-44c1-a3af-66c8160c5450")
 		)
-		(instances
+		(property "MPN" "PTV09A-4020F-B103" (at 127 123.19 0) (hide yes) (effects (font (size 1.27 1.27))))
+(instances
 			(project "seed3-carrier"
 				(path "/94ecceca-f8ce-4e68-9c84-99ac5115dfb9"
 					(reference "RV3")
@@ -10352,7 +10344,7 @@
 				)
 			)
 		)
-		(property "Value" "1M INPUT TRIM"
+		(property "Value" "1M INPUT LEVEL"
 			(at 78.74 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10362,7 +10354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 			(at 64.77 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +10365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/ptv09.pdf"
 			(at 64.77 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10394,7 +10386,7 @@
 				)
 			)
 		)
-		(property "MPN" "3296W-1-105LF"
+		(property "MPN" "PTV09A-4020F-B105"
 			(at 64.77 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10500,6 +10492,81 @@
 			(project "seed3-carrier"
 				(path "/94ecceca-f8ce-4e68-9c84-99ac5115dfb9"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 332.74 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1994e35-e320-4111-9f34-c7ba59b3524a")
+		(property "Reference" "#PWR033"
+			(at 332.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 69.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1314b68-f0b9-48de-9ed8-07d1ad118950")
+		)
+		(instances
+			(project "seed3-carrier"
+				(path "/94ecceca-f8ce-4e68-9c84-99ac5115dfb9"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
