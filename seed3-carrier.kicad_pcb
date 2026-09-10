@@ -14663,6 +14663,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "VOLUME"
+		(at 134.874 59.944 0)
+		(layer "F.SilkS")
+		(uuid "ecdd05a9-b483-4080-acb0-10f90427a90d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TONE"
+		(at 154.178 59.944 0)
+		(layer "F.SilkS")
+		(uuid "4dbd7250-406e-4190-8fb5-46abefbb2cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TX"
 		(at 83.82 77.47 270)
 		(layer "F.SilkS")
