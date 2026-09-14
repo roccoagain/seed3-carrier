@@ -661,7 +661,7 @@
         "uuid": "94ecceca-f8ce-4e68-9c84-99ac5115dfb9"
       }
     ],
-    "used_designators": "TP_AUDIO_OUT1,#FLG1-2,RV1-3,TP1-9,U1-2,R1-13,C1-9,A1,#PWR1-22,#PWR31-34,J1-4,J6-7",
+    "used_designators": "TP_AUDIO_OUT1,#FLG1-2,RV1-3,TP1-9,U1-2,R1-13,Q1,C1-9,A1,#PWR1-22,#PWR31-34,J1-4,J6-7",
     "variants": []
   },
   "sheets": [
