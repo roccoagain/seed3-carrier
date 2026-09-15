@@ -1,3 +1,4 @@
+SUPERSEDED: use ../2026-09-15-e7ddc60/seed3-carrier-e7ddc60-JLCPCB.zip instead.
 SUPERSEDED: use ../2026-09-15-resized/seed3-carrier-resized-JLCPCB.zip instead.
 Historical package: potentiometer mounting-hole update.
 Source: project files included alongside this package; exact hashes in SOURCE_SHA256SUMS.txt.

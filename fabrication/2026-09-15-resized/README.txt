@@ -1,3 +1,4 @@
+SUPERSEDED: use ../2026-09-15-e7ddc60/seed3-carrier-e7ddc60-JLCPCB.zip instead.
 Current manufacturing package: resized board and corrected routing.
 Board outline: 95.758 x 66.167 mm; two copper layers; configured thickness 1.6 mm.
 Source: saved working tree based on d76a8e7; exact hashes in SOURCE_SHA256SUMS.txt.
