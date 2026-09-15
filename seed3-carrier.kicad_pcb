@@ -744,7 +744,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+	(footprint "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 		(layer "F.Cu")
 		(uuid "0f902776-0947-47e1-aa8b-2f9e2c1ccc19")
 		(at 86.32 92.918 90)
@@ -988,7 +988,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 -6.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "a2b9ce1f-34a6-4647-8397-b7b922dc04a0")
@@ -996,7 +996,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 1.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "6e644cf5-3cc6-441c-a32f-ab6dd0c9f65e")
@@ -3313,7 +3313,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+	(footprint "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 		(layer "F.Cu")
 		(uuid "5f3aa0dc-c599-494b-b560-f24dd7471682")
 		(at 158.625 56.85 90)
@@ -3596,7 +3596,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 -6.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "e52fc514-82b7-4ade-b189-5bca8454d675")
@@ -3604,7 +3604,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 1.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "437e07ac-fed6-4adf-ae0a-e5578c639f57")
@@ -12365,7 +12365,7 @@
 			)
 		)
 	)
-	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+	(footprint "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 		(layer "F.Cu")
 		(uuid "f22a4de0-0fb9-4622-982f-f26913f9029f")
 		(at 140.25 56.85 90)
@@ -12648,7 +12648,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 -6.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "0a93489a-7fb2-406d-91e2-61469d325181")
@@ -12656,7 +12656,7 @@
 		(pad "MP" thru_hole circle
 			(at 7 1.9 90)
 			(size 4.4 4.4)
-			(drill 2.2)
+			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "aaf0d9b6-624e-4ccf-a98b-98d594b28b01")

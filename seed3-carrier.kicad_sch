@@ -8756,7 +8756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12055,7 +12055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 			(at 127 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12947,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+		(property "Footprint" "Seed3_Carrier:Potentiometer_Bourns_PTV09A-4_Single_Vertical_3mmMount"
 			(at 64.77 50.8 0)
 			(hide yes)
 			(show_name no)
