@@ -15061,7 +15061,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "seed3-carrier Rev. 1\nDesigned by Rocco Antoniou and Danny Diaz Reyes\nSep 10, 2026\n"
+	(gr_text "seed3-carrier Rev. 1\nDesigned by Rocco Antoniou and Danny Diaz Reyes\nSep 2026\n"
 		(at 86.106 45.72 0)
 		(layer "F.SilkS")
 		(uuid "2dca74cb-753c-4f7d-95e9-59272b346d0a")
