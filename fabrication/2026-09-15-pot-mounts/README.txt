@@ -1,4 +1,5 @@
-LATEST MANUFACTURING PACKAGE: potentiometer mounting-hole update.
+SUPERSEDED: use ../2026-09-15-resized/seed3-carrier-resized-JLCPCB.zip instead.
+Historical package: potentiometer mounting-hole update.
 Source: project files included alongside this package; exact hashes in SOURCE_SHA256SUMS.txt.
 Supersedes the earlier cd9d6ac and 2ebd707 manufacturing packages.
 RV1: Bourns PTV09A-4020F-B105 (1M linear).
